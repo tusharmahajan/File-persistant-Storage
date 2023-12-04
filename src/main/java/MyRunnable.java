@@ -1,8 +1,8 @@
 public class MyRunnable implements Runnable{
 
-    private PersistantStorage persistantStorage;
-    private String name;
-    private String id;
+    private final PersistantStorage persistantStorage;
+    private final String name;
+    private final String id;
 
     public MyRunnable(PersistantStorage persistantStorage, String name, String id) {
         this.persistantStorage = persistantStorage;
